@@ -1,0 +1,24 @@
+
+main <t.lua:0,0> (14 instructions, 56 bytes at 004CB6A0)
+0+ params, 6 slots, 0 upvalues, 3 locals, 1 constant, 1 function
+	1	[2]	MUL      	3 0 1
+	2	[2]	MUL      	4 1 2
+	3	[2]	ADD      	3 3 4
+	4	[2]	MUL      	4 0 2
+	5	[2]	ADD      	3 3 4
+	6	[2]	MUL      	4 0 0
+	7	[2]	MUL      	5 1 1
+	8	[2]	ADD      	4 4 5
+	9	[2]	MUL      	5 2 2
+	10	[2]	ADD      	4 4 5
+	11	[2]	SUB      	0 3 4
+	12	[4]	CLOSURE  	3 0	; 004CFA98
+	13	[4]	SETGLOBAL	3 -1	; foo
+	14	[4]	RETURN   	0 1
+
+function <t.lua:4,4> (4 instructions, 16 bytes at 004CFA98)
+1 param, 3 slots, 0 upvalues, 1 local, 1 constant, 0 functions
+	1	[4]	GETGLOBAL	1 -1	; print
+	2	[4]	MOVE     	2 0
+	3	[4]	CALL     	1 2 1
+	4	[4]	RETURN   	0 1

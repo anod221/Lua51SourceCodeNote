@@ -1,0 +1,7 @@
+
+main <t.lua:0,0> (4 instructions, 16 bytes at 003DB6A0)
+0+ params, 3 slots, 0 upvalues, 2 locals, 1 constant, 0 functions
+	1	[2]	MUL      	2 0 0
+	2	[2]	ADD      	2 2 0
+	3	[2]	ADD      	0 2 -1	; - 7200
+	4	[2]	RETURN   	0 1
